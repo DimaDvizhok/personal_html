@@ -1,15 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   background-color: #a29e9e;
   font-size: 14px;
   color: #212121;
   font-family: 'Helvetica Neue', 'Roboto', 'Verdana', sans-serif;
   line-height: 1.5;
+  margin: 0;
 }
-ul {
-  list-style-type: none;
-}
+
 .page-header {
   background-color: #bdbdbd;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
 }
 .page-title {
   color: #f44336;
@@ -18,11 +25,18 @@ ul {
   font-weight: 500;
   font-style: italic;
   text-shadow: 2px 2px 4px #212121;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 24px;
 }
 .section-title {
   color: #3f51b5;
   font-size: 20px;
   font-weight: 500;
+  border: 2px dashed #212121;
+}
+.section-title:hover {
+  border-style: solid;
 }
 .section-text {
   color: #ff5722;
@@ -42,8 +56,24 @@ ul {
   font-weight: 500;
   text-decoration: none;
 }
-.nav-form a {
+.page-nav {
   text-transform: uppercase;
   font-size: 14px;
+  padding: 0;
 }
-.club-link{background-color: #ff5722;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
