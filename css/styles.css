@@ -1,0 +1,35 @@
+/*=================== RESET */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* ========================BASE */
+
+body {
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  color: #22343d;
+}
+
+/* =====================HEADER =======================*/
