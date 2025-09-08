@@ -44,9 +44,6 @@ body {
   align-items: center;
 }
 
-.header {
-}
-
 .header-logo {
   margin-right: 237px;
 }
@@ -71,9 +68,6 @@ body {
   gap: 30px;
 }
 
-.header-nav-item {
-}
-
 .header-nav-link {
   display: block;
   line-height: 1.75;
@@ -89,8 +83,6 @@ body {
   display: flex;
   align-items: center;
   gap: 21px;
-}
-.header-btn-item {
 }
 
 .header-btn {
